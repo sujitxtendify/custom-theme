@@ -1,0 +1,352 @@
+.contact_banner {
+    background-image: url("assets/images/home_page_img/home_banner_bg.png");
+    padding: 210px 0 0;
+
+    .contact_banner_row {
+        position: relative;
+        max-width: 1170px;
+        margin: 70px auto 0;
+
+        .my_col {
+            .contact_item {
+                .contact_item_inner {
+                    position: relative;
+                    min-height: 350px;
+                    padding: 40px;
+                    border-radius: 20px;
+                    border: 1px solid rgba(0, 0, 0, 0.16);
+                    background-color: $brand-white;
+                    text-align: center;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    transition: 0.3s ease-in-out;
+
+                    .content {
+                        h3 {
+                            font-size: 19px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: normal;
+                            margin: 35px 0 13px;
+                        }
+                        p {
+                            max-width: 230px;
+                            margin: 0 auto;
+                        }
+                    }
+                    .link {
+                        a {
+                            margin-top: 33px;
+                            color: $brand-black;
+                            font-size: 15px;
+                            font-style: normal;
+                            font-weight: 500;
+                            line-height: normal;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            gap: 8px;
+                            transition: 0.3s ease-in-out;
+
+                            span {
+                                i {
+                                    position: relative;
+                                    top: 2px;
+                                }
+                            }
+
+                            &:hover {
+                                color: $brand-green;
+                            }
+                        }
+                    }
+                    &:hover {
+                        box-shadow: 20px 20px 30px 0px rgba(0, 0, 0, 0.07);
+                    }
+                }
+            }
+        }
+    }
+}
+.contact_form_wrapper {
+    position: relative;
+    padding: 150px 0 130px;
+    .contact_form_container {
+        .contact_form_row {
+            .left_content {
+                h2 {
+                    text-align: left;
+                }
+                .contact_form_img {
+                    margin-top: 88px;
+                }
+            }
+            .contact_form {
+                form {
+                    ul {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 27px;
+                        margin: 0;
+                        padding: 0 0 0 50px;
+                        li {
+                            display: flex;
+                            align-items: center;
+                            gap: 27px;
+                            text-align: left;
+                            .contact_input_container {
+                                width: 100%;
+                                display: flex;
+                                flex-direction: column;
+                                gap: 12px;
+
+                                label {
+                                    color: $brand-black;
+                                    font-size: 16px;
+                                    font-style: normal;
+                                    font-weight: 500;
+                                    line-height: normal;
+                                    margin-left: 22px;
+
+                                    span {
+                                        position: relative;
+                                        top: -2px;
+                                        left: 5px;
+                                    }
+                                }
+                                input[type="text"],
+                                input[type="email"],
+                                select,
+                                textarea {
+                                    position: relative;
+                                    border: 1px solid #d1d1d1;
+                                    background-color: $brand-white;
+                                    border-radius: 30px;
+                                    width: 100%;
+                                    outline: none;
+                                    height: 60px;
+                                    padding: 0 23px;
+                                    -webkit-appearance: none;
+                                    -moz-appearance: none;
+
+                                    &:focus {
+                                        border-color: $brand-green;
+
+                                        &::placeholder {
+                                            opacity: 0;
+                                        }
+                                    }
+                                    &::placeholder {
+                                        color: rgba(0, 0, 0, 0.29);
+                                        font-family: "Roboto", sans-serif;
+
+                                        font-size: 15px;
+                                        font-style: normal;
+                                        font-weight: 400;
+                                        line-height: normal;
+                                    }
+                                }
+                                .select_field {
+                                    position: relative;
+
+                                    &::after {
+                                        content: "";
+                                        position: absolute;
+                                        border: solid #adacac;
+                                        border-width: 0 2px 2px 0px;
+                                        display: inline-block;
+                                        padding: 3px;
+                                        transform: rotate(45deg);
+                                        -webkit-transform: rotate(45deg);
+                                        right: 25px;
+                                        top: 30px;
+                                        user-select: none;
+                                        pointer-events: none;
+                                    }
+                                }
+                                textarea {
+                                    padding: 23px 18px;
+                                    min-height: 154px;
+                                    width: 100%;
+                                    resize: none;
+                                }
+                            }
+                            input[type="submit"] {
+                                position: relative;
+                                color: $brand-white;
+                                background-color: $brand-green;
+                                min-width: 245px;
+                                height: 58px;
+                                display: inline-flex;
+                                align-items: center;
+                                justify-content: center;
+                                border-radius: 50px;
+                                font-size: 16px;
+                                font-style: normal;
+                                font-weight: 500;
+                                line-height: normal;
+                                text-transform: capitalize;
+                                overflow: hidden;
+                                transition: 0.3s ease-in-out;
+                                padding: 0 40px;
+                                gap: 10px;
+                                overflow: hidden;
+                                z-index: 1;
+                                border: 1px solid $brand-green;
+                                outline: none;
+
+                                &:hover {
+                                    background: $brand-white;
+                                    color: $brand-green;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .contact_form_shape {
+        position: absolute;
+        left: 0;
+        top: -100px;
+        z-index: -1;
+    }
+}
+
+.contact_form_wrapper {
+    .contact_form_container {
+        .contact_form_row {
+            .contact_form {
+                .gform_wrapper {
+                    form {
+                        
+                        .gform_body {
+                            ul {
+                                li {
+                                    padding: 0;
+                                    margin: 0 !important;
+                                    width: 100% !important;
+                                    gap: 12px;
+                                    flex-direction: column;
+                                    align-items: start;
+
+                                    label.gform-field-label {
+                                        color: #000000;
+                                        font-size: 16px;
+                                        font-style: normal;
+                                        font-weight: 500;
+                                        line-height: normal;
+                                        margin-left: 22px;
+                                        width: 100%;
+                                    }
+                                    .ginput_container {
+                                        margin: 0 !important;
+                                        width: 100% !important;
+
+                                        input[type="email"],
+                                        input[type="text"],
+                                        select,
+                                        textarea {
+                                            position: relative;
+                                            border: 1px solid #d1d1d1;
+                                            background-color: #ffffff;
+                                            border-radius: 30px;
+                                            width: 100%;
+                                            outline: none;
+                                            height: 60px;
+                                            padding: 0 23px;
+                                            -webkit-appearance: none;
+                                            -moz-appearance: none;
+                                        }
+                                    }
+                                    .ginput_container_select{
+                                        position: relative;
+
+                                        &::after{
+                                            content: "";
+                                            position: absolute;
+                                            border: solid #adacac;
+                                            border-width: 0 2px 2px 0px;
+                                            display: inline-block;
+                                            padding: 3px;
+                                            transform: rotate(45deg);
+                                            -webkit-transform: rotate(45deg);
+                                            right: 25px;
+                                            top: 25px;
+                                            user-select: none;
+                                            pointer-events: none;
+                                        }
+                                    }
+                                    .ginput_container_textarea{
+                                        textarea{
+                                            padding: 23px 18px;
+                                            min-height: 154px;
+                                            width: 100%;
+                                            resize: none;
+                                        }
+                                    }
+
+                                }
+                                li.gf_left_half{
+                                    gap: 0 !important;
+                                    label.gfield_label{
+                                        display: none;
+                                    }
+                                    .ginput_container{
+                                        display: flex;
+                                        align-items: center;
+                                        gap: 20px;
+
+                                        span{
+                                            padding: 0 !important;
+
+                                            label{
+                                                margin-bottom: 10px;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        .gform_footer{
+                            input[type=submit]{
+                                position: relative;
+                                color: #ffffff;
+                                background-color: #61BD4F;
+                                min-width: 245px;
+                                height: 58px;
+                                display: inline-flex;
+                                align-items: center;
+                                justify-content: center;
+                                border-radius: 50px;
+                                font-size: 16px;
+                                font-style: normal;
+                                font-weight: 500;
+                                line-height: normal;
+                                text-transform: capitalize;
+                                overflow: hidden;
+                                transition: 0.3s ease-in-out;
+                                padding: 0 40px;
+                                gap: 10px;
+                                overflow: hidden;
+                                z-index: 1;
+                                border: 1px solid #61BD4F;
+                                outline: none;
+                                margin-left: 50px;
+
+                                &:hover{
+                                    background: #ffffff;
+                                    color: #61BD4F;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+

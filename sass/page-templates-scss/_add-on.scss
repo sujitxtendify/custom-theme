@@ -1,0 +1,232 @@
+.add_on_banner_wrapper {
+    position: relative;
+    padding: 220px 0 320px;
+    background-image: url("assets/images/add_ons_img/add_ons_banner_bg.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .title {
+        position: relative;
+        max-width: 500px;
+        margin: 0 auto;
+        text-align: center;
+
+        h1 {
+            color: $brand-white;
+        }
+    }
+}
+.learn_more_wrapper {
+    position: relative;
+    padding: 0 0 240px;
+    .lm_container {
+        .lm_top_row {
+            position: relative;
+            padding: 110px 0;
+            background-image: url("assets/images/home_page_img/grunge-brush-stroke.png");
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: auto;
+            h4 {
+                max-width: 810px;
+                margin: 0 auto;
+                color: #3e3e3e;
+                text-align: center;
+                font-size: 25px;
+                font-style: italic;
+                font-weight: 500;
+                line-height: 55px;
+
+                span {
+                    color: $brand-green;
+                }
+            }
+            &::after {
+                content: "";
+                width: 134px;
+                height: 134px;
+                position: absolute;
+                top: 80px;
+                right: 20px;
+                background-image: url("assets/images/add_ons_img/swirly-scribbled-arrow.png");
+                background-position: center center;
+                background-repeat: no-repeat;
+                background-size: contain;
+                animation: up-down 2s infinite alternate;
+            }
+        }
+        .lm_middle_row {
+            padding-bottom: 100px;
+            display: none;
+            .sc_pricing_card_row {
+                justify-content: center;
+
+                .my_col {
+                    .sc_pricing_card {
+                        .sc_pricing_card_inner {
+                            box-shadow: none !important;
+                        }
+                    }
+                    &:first-child {
+                        .sc_pricing_card {
+                            .sc_pricing_card_inner {
+                                ul {
+                                    li {
+                                        &::before {
+                                            background-image: url("assets/images/home_page_img/sc_right.png");
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .lm_bottom_row {
+            position: relative;
+            width: 100%;
+            max-width: 1170px;
+            margin: 0 auto;
+
+            .lm_item {
+                .lm_item_inner {
+                    position: relative;
+                    z-index: 5;
+                    border-radius: 25px;
+                    background: #e9f3f4;
+                    min-height: 482px;
+                    padding: 70px 30px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: space-between;
+                    text-align: center;
+                    .lm_item_top {
+                        h3 {
+                            text-align: center;
+                            font-size: 30px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: normal;
+                            margin: 10px 0;
+                        }
+                        p {
+                            max-width: 358px;
+                            margin: 0 auto;
+                            color: rgba(0, 0, 0, 0.54);
+                            text-align: center;
+                            font-size: 16px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 33px;
+                        }
+                    }
+                    .lm_item_btn {
+                        a {
+                            display: flex;
+                            align-items: center;
+                            gap: 6px;
+                            color: $brand-black;
+                            font-size: 16px;
+                            font-style: italic;
+                            font-weight: 500;
+                            line-height: normal;
+                            transition: 0.3s ease-in-out;
+
+                            span {
+                                i {
+                                    position: relative;
+                                    top: 2px;
+                                    left: 2px;
+                                }
+                            }
+
+                            &:hover {
+                                color: $brand-green;
+                            }
+                        }
+                    }
+                }
+            }
+            .lm_shape {
+                .shape {
+                    position: absolute;
+                    z-index: -1;
+                }
+                .shape1 {
+                    top: -45px;
+                    left: -40px;
+                }
+                .shape2 {
+                    bottom: -45px;
+                    right: -40px;
+                }
+            }
+        }
+    }
+}
+
+.guarantee_wrapper {
+    position: relative;
+    padding: 190px 0 0;
+    background-image: url("assets/images/add_ons_img/guarantee_bg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .guarantee_disc {
+        position: relative;
+        max-width: 967px;
+        margin: 0 auto;
+        padding: 80px 30px 110px;
+        border-radius: 30px 30px 0px 0px;
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0) 96.05%);
+
+        h2 {
+            color: $brand-white;
+        }
+        p {
+            max-width: 811px;
+            margin: 25px auto;
+            color: $brand-white;
+            text-align: center;
+            font-family: "Poppins", sans-serif;
+            font-size: 22px;
+            font-style: italic;
+            font-weight: 400;
+            line-height: 45px;
+        }
+    }
+    .guarantee_badge {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+.add_on_faq_wrapper {
+    padding: 140px 0;
+}
+
+body.page-template-refund-policy {
+    .guarantee_wrapper {
+        padding: 80px 0 0;
+        margin: 100px 0;
+        background-image: none;
+
+        .guarantee_disc {
+            background: linear-gradient(180deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0) 96.05%);
+
+            h2,
+            p {
+                color: $brand-black;
+
+                a {
+                    color: $brand-green;
+                }
+            }
+        }
+    }
+}

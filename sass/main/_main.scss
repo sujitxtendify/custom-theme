@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+p {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+color: $brand-para;
+}
+a{
+    text-decoration: none !important;
+}
+li{
+    list-style: none !important;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0 ;
+    color: $brand-black;
+}
+.my_container_375{
+    position: relative;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.second_head{
+    color: $brand-black;
+text-align: center;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 50px;  
+text-transform: capitalize;
+}
+
+.primary_btn,.secondary_btn {
+    position: relative;
+    color: $brand-white;
+    background-color: $brand-green;
+    min-width: 245px;
+    height: 58px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+    overflow: hidden;
+    transition: 0.3s ease-in-out;
+    padding: 0 40px;
+    gap: 10px;
+    overflow: hidden;
+    z-index: 1;
+    border: 1px solid  $brand-green;
+
+    &:before {
+        content: '';
+        top: 0;
+        bottom: 0;
+        left: -120%;
+        transform: skewX(-45deg);
+        width: 100%;
+        background: $brand-white;
+        transition: 0.4s ease;
+        position: absolute;
+        z-index: -1;
+      }
+      &:hover {
+        &:before {
+            width: 240%;
+ 
+        }
+      }
+      &:hover{
+        i{
+            &::before{
+                color: $brand-black;
+            }
+         }
+      }
+      i{
+        &::before{
+            transition: 0.2s  linear;
+
+        }
+     }
+}
+.secondary_btn{
+    color: $brand-black;
+    background-color:$brand-sbtn;
+    border: 1px solid #D3D3D3;
+
+    &::before{
+        background: $brand-green;
+
+    }
+    &:hover{
+        i{
+           &::before{
+               color: $brand-white;
+           }
+        }
+     }
+     &:hover{
+        color: $brand-white;
+     }
+
+}
+body.active_body{
+    overflow: hidden !important;
+}
+@keyframes up-down {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-13px);
+    }
+}

@@ -134,18 +134,43 @@ function simple_calendar_widgets_init() {
 }
 add_action( 'widgets_init', 'simple_calendar_widgets_init' );
 
-/**
- * Enqueue scripts and styles.
- */
+// /**
+//  * Enqueue scripts and styles.
+//  */
 function simple_calendar_scripts() {
-	wp_enqueue_style( 'simple-calendar-style', get_stylesheet_uri(), array(), _S_VERSION );
-	wp_style_add_data( 'simple-calendar-style', 'rtl', 'replace' );
+	// ======= font icon added=========
+	wp_enqueue_style( 'simple-calendar-moon-icon', get_template_directory_uri() . '/css/admin.css', array(), _S_VERSION );
+	// =======font icon end=========
+// =======bootstarp added=========
+wp_enqueue_style( 'simple-calendar-bootstrap-min', get_template_directory_uri() . '/css/bootstrap.min.css', array(), _S_VERSION );
 
-	wp_enqueue_script( 'simple-calendar-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );
+// =======bootstarp end=========
 
-	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
-		wp_enqueue_script( 'comment-reply' );
-	}
+// ======= swiper added=========
+wp_enqueue_style( 'simple-calendar-swiper-min', get_template_directory_uri() . '/css/swiper-bundle.min.css', array(), _S_VERSION );
+
+// ======= swiper end=========
+wp_enqueue_style( 'simple-calendar-style', get_stylesheet_uri(), array(), _S_VERSION );
+
+wp_style_add_data( 'simple-calendar-style', 'rtl', 'replace' );
+
+wp_enqueue_script( 'simple-calendar-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );
+
+
+// =======bootstrap.bundle js=====================
+
+wp_enqueue_script( 'simple-calendar-bootstarp-bundle-js', get_template_directory_uri() . '/js/bootstrap.bundle.min.js', array(), _S_VERSION, true );
+
+// ======= swiper.bundle js=====================
+
+wp_enqueue_script( 'simple-calendar-swiper-bundle-js', get_template_directory_uri() . '/js/swiper-bundle.min.js', array(), _S_VERSION, true );
+
+// =======main.js=====================
+wp_enqueue_script( 'simple-calendar-main', get_template_directory_uri() . '/js/main.js', array('jquery'), _S_VERSION, true );
+
+if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
+wp_enqueue_script( 'comment-reply' );
+}
 }
 add_action( 'wp_enqueue_scripts', 'simple_calendar_scripts' );
 

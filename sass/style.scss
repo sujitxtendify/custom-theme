@@ -48,10 +48,15 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 	- Accessibility
 	- Alignments
 
---------------------------------------------------------------*/
+
+	
+----------------------------fonts----------------------------------*/
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,700,800');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,800');
 
 // Import variables and mixins.
 @import "abstracts/abstracts";
+@import "abstracts/variables/colors";
 
 /*--------------------------------------------------------------
 # Generic
@@ -100,3 +105,19 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 /* Alignments
 --------------------------------------------- */
 @import "utilities/alignments";
+
+// -----rewamp scss----------
+@import "main/main";
+@import "page-templates-scss/header";
+@import "page-templates-scss/footer";
+@import "page-templates-scss/home-page";
+@import "page-templates-scss/add-on";
+@import "page-templates-scss/contact-us";
+@import "page-templates-scss/full-calendar";
+@import "page-templates-scss/edd_pages";
+@import "page-templates-scss/about-us";
+@import "page-templates-scss/blog";
+
+
+// ======responsive=======
+@import "page-templates-scss/responsive";

@@ -1,0 +1,116 @@
+.my_account_form_wrapper {
+    position: relative;
+    padding: 70px 0 100px;
+
+    .my_account_form {
+        position: relative;
+        max-width: 560px;
+        margin: 0 auto;
+        text-align: center;
+
+        form {
+            position: relative;
+
+            fieldset {
+                display: flex;
+                flex-direction: column;
+                gap: 32px;
+
+                legend {
+                    color: $brand-black;
+                    text-align: center;
+                    font-size: 40px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 50px;
+                    text-transform: capitalize;
+                    margin: 0 0 30px;
+                }
+                p {
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 12px;
+                    text-align: left;
+                    a,
+                    label {
+                        color: $brand-black;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: normal;
+                        margin-left: 22px;
+                    }
+                    input[type="text"],
+                    input[type="email"],
+                    input[type="password"] {
+                        position: relative;
+                        border: 1px solid #d1d1d1;
+                        background-color: $brand-white;
+                        border-radius: 30px;
+                        width: 100%;
+                        outline: none;
+                        height: 60px;
+                        padding: 0 23px;
+                        -webkit-appearance: none;
+                        -moz-appearance: none;
+
+                        &:focus {
+                            border-color: $brand-green;
+
+                            &::placeholder {
+                                opacity: 0;
+                            }
+                        }
+                        &::placeholder {
+                            color: rgba(0, 0, 0, 0.29);
+                            font-family: "Roboto", sans-serif;
+                            font-size: 15px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                        }
+                    }
+                    input[type="checkbox"] {
+                        outline: none;
+                        border: 1px solid #d1d1d1;
+                        height: 20px;
+                        width: 20px;
+                        margin-right: 10px;
+                        position: relative;
+                        top: 4px;
+                    }
+                    input[type="submit"] {
+                        position: relative;
+                        color: $brand-white;
+                        background-color: $brand-green;
+                        min-width: 245px;
+                        height: 58px;
+                        display: inline-flex;
+                        align-items: center;
+                        justify-content: center;
+                        border-radius: 50px;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: normal;
+                        text-transform: capitalize;
+                        overflow: hidden;
+                        transition: 0.3s ease-in-out;
+                        padding: 0 40px;
+                        gap: 10px;
+                        overflow: hidden;
+                        z-index: 1;
+                        border: 1px solid $brand-green;
+                        outline: none;
+
+                        &:hover {
+                            background: $brand-white;
+                            color: $brand-green;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

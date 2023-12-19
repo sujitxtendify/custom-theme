@@ -1,0 +1,141 @@
+.full_calendar_banner {
+    .full_calendar_top_row {
+        position: relative;
+        max-width: 1190px;
+        margin: 60px auto 0;
+
+        .left_banner_img {
+            img {
+                box-shadow: 0px 30px 50px 0px rgba(0, 0, 0, 0.1);
+                border-radius: 30px;
+            }
+        }
+    }
+}
+.purchase_popup {
+    .popup_inner {
+        position: relative;
+        border-radius: 30px;
+        border: 1px solid rgba(0, 0, 0, 0.13);
+        background: $brand-white;
+        box-shadow: 0px 30px 50px 0px rgba(0, 0, 0, 0.1);
+        padding: 55px 40px;
+        text-align: center;
+        .purchase_popup_top {
+            h3 {
+                text-align: center;
+                font-size: 23px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+            }
+            p {
+                margin: 14px 0 0;
+            }
+        }
+        form {
+            ul {
+                display: flex;
+                gap: 22px;
+                flex-direction: column;
+                max-width: 275px;
+                margin: 0 auto;
+                padding: 36px 0;
+
+                li {
+                    display: flex;
+                    align-items: center;
+
+                    label {
+                        display: flex;
+                        align-items: center;
+
+                        input[type="radio"] {
+                            width: 17.665px;
+                            height: 17.665px;
+                            margin-right: 20px;
+                        }
+                        span {
+                            color: $brand-black;
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 500;
+                            line-height: 22.14px;
+                        }
+                    }
+                }
+            }
+            button {
+                min-width: 221px;
+                height: 53px;
+                border-radius: 50px;
+                background: $brand-green;
+                outline: none;
+                border: 1px solid $brand-green;
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                color: $brand-white;
+                text-align: center;
+                font-size: 15px;
+                font-weight: 600;
+                text-transform: uppercase;
+                transition: 0.3s ease-in-out;
+
+                &:hover {
+                    background: $brand-white;
+                    color: $brand-green;
+                }
+            }
+        }
+    }
+}
+.bottom_purchase_bundle_wrapper {
+    position: relative;
+    padding: 55px 0 0;
+    .bottom_purchase_bundle_row {
+        .left_points_col {
+            h2 {
+                font-size: 30px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 50px;
+                max-width: 700px;
+            }
+            ul {
+                margin: 0;
+                padding: 30px 0 0 30px;
+                display: flex;
+                flex-direction: column;
+                gap: 16px;
+
+                li {
+                    position: relative;
+                    color: rgba(0, 0, 0, 0.54);
+                    font-family: "Roboto", sans-serif;
+                    font-size: 17px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 35px;
+
+                    &::after {
+                        content: "";
+                        width: 18px;
+                        height: 18px;
+                        position: absolute;
+                        top: 7px;
+                        left: -30px;
+                        background-image: url("assets/images/add_ons_img/star.png");
+                        background-position: center center;
+                        background-repeat: no-repeat;
+                        background-size: contain;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.full_calendar_buy_wrapper {
+    padding: 130px 0 220px;
+}

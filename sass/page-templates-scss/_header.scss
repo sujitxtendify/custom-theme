@@ -1,0 +1,151 @@
+header.main_header{
+    position: absolute;
+    top: 0;
+    padding: 32px 50px;
+    background: rgba(0, 0, 0, 0.10);
+    left: 0;
+    right: 0;
+    z-index: 999;
+    transition: .3s ease;
+    max-width: 100%;
+ 
+    .header_wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 1170px;
+        margin: 0 auto;
+
+        .sc_logo{
+            p{
+                display: none;
+                margin: 0;
+            }
+        }
+
+        nav{
+            width: auto;
+            ul{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 55px;
+
+                li {
+                    position: relative;
+    
+                    a{
+                        position: relative;
+                        color: #FFFFFF;
+                        text-align: center;
+                        text-transform: uppercase;
+                        font-size: 14px;
+                        font-weight: 500;
+                        line-height:  normal;
+
+                        &::after {
+                            position: absolute;
+                            content: "";
+                            bottom: -8px;
+                            left: 0;
+                            width: 100%;
+                            height: 2px;
+                            background: $brand-white;
+                            transform: scaleX(0);
+                            transform-origin: right;
+                            transition: transform 0.5s;
+                          }
+                    
+                          &:hover {
+                            // color: #95a5a6;
+                          }
+                    
+                          &:hover::after {
+                            transform: scaleX(1);
+                            transform-origin: left;
+                          }
+                    }
+                }
+                .current-menu-item,.current_page_item{
+                  a{
+
+                     &::after{
+                        transform: scaleX(1);
+                        transform-origin: left;
+                     }
+                  }
+                }
+            }
+
+        }
+
+        .toggle {
+            display: none;
+            width: 22px;
+
+            .bar {
+               background: $brand-white;
+               border-radius: 50px;
+               height: 3px;
+               margin: 4px 0;
+               transition: 0.4s cubic-bezier(0.68, -0.6, 0.32, 1.6);
+            }
+            .bar:nth-child(1) {
+               width: 50%;
+            }
+            .bar:nth-child(2) {
+               width: 100%;
+            }
+            .bar:nth-child(3) {
+               width: 75%;
+            }
+         }
+         .toggle.toggle_active {
+            .bar:nth-child(1) {
+               transform-origin: bottom;
+               transform: rotatez(42deg) translate(2px, 1px);
+            }
+
+            .bar:nth-child(2) {
+               transform-origin: top;
+               transform: rotatez(-45deg);
+            }
+
+            .bar:nth-child(3) {
+               transform-origin: bottom;
+               width: 50%;
+               transform: translate(7px, -5px) rotatez(43deg);
+               width: 65%;
+            }
+         }
+    }
+}
+
+header.sticky_header {
+    position: fixed;
+    background: rgba(0, 0, 0, 0.80);
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+ 
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1);
+    animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+ 
+    @keyframes fadeInDown {
+       0% {
+          opacity: 0;
+          -webkit-transform: translate3d(0, -100%, 0);
+          transform: translate3d(0, -100%, 0);
+       }
+ 
+       100% {
+          opacity: 1;
+          -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+       }
+    }
+ 
+    .header_wrapper {
+       border-bottom: none;
+    }
+ }
+
