@@ -114,10 +114,17 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 @import "page-templates-scss/add-on";
 @import "page-templates-scss/contact-us";
 @import "page-templates-scss/full-calendar";
-@import "page-templates-scss/edd_pages";
+@import "page-templates-scss/my-account";
 @import "page-templates-scss/about-us";
 @import "page-templates-scss/blog";
+// ==========demo.simplecalendar.io scss start=======
+@import "demo-sc-scss/demo-sc";
+@import "demo-sc-scss/demo-sc-header";
+@import "demo-sc-scss/demo-sc-responsive";
+// ==========demo.simplecalendar.io scss End=======
+
 
 
 // ======responsive=======
 @import "page-templates-scss/responsive";
+

@@ -1,0 +1,15 @@
+@import "demo-sc-colors";
+@import "demo-sc-typography";
+@import "demo-sc-buttons";
+@import "demo-sc-components";
+
+// ==============demo-sc scss start================
+
+.demo_sc_wrapper {
+    padding: 100px 0 300px;
+}
+.demo_btn {
+    display: inline-flex;
+    flex-direction: column;
+    gap: 20px;
+}

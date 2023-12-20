@@ -92,7 +92,7 @@ footer.sc_footer_main {
 
             .f_bottom_row {
                 position: relative;
-                max-width: 1024px;
+                max-width: 1220px;
                 margin: 0 auto;
 
                 .footer_social_media {
@@ -224,38 +224,37 @@ footer.sc_footer_main {
 }
 
 body.page-template-about-us,
-body.page-template-refund-policy,
-body.page-template-edd-pages {
+body.page-template-refund-policy {
     footer.sc_footer_main {
         .ftr_shape {
             display: none;
         }
     }
 }
-footer.sc_footer_main {
+.sc_footer_main {
     .footer_top {
         .footer_form {
             .gform_wrapper {
-                .gform_heading {
+                .gform_heading{
                     h2 {
                         display: none;
                     }
                 }
-                form {
-                    .gform_body {
-                        .gform_fields {
-                            label.gfield_label {
-                                display: none;
+                form{
+                    .gform_body{
+                        .gform_fields{
+                            label.gfield_label{
+display: none;
                             }
-                            .ginput_container_email {
-                                input[type="email"] {
+                            .ginput_container_email{
+                                input[type="email"]{
                                     min-height: 81px;
                                 }
                             }
                         }
                     }
-                    .gform_footer {
-                        input[type="submit"] {
+                    .gform_footer{
+                        input[type="submit"]{
                             width: auto;
                         }
                     }

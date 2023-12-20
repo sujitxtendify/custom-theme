@@ -6,7 +6,6 @@
             }
         }
     }
-
     footer.sc_footer_main .ftr_shape .shape {
         display: none;
     }
@@ -23,7 +22,6 @@
             }
         }
     }
-
     .learn_more_wrapper {
         .lm_container {
             .lm_top_row::after {
@@ -31,7 +29,6 @@
             }
         }
     }
-
     .vrt_slider_wrapper {
         .vrt_slider_row {
             .sc_col {
@@ -44,7 +41,6 @@
                 }
             }
         }
-
         .vertical_slider_bg {
             display: none;
         }
@@ -69,7 +65,6 @@
             }
         }
     }
-
     footer.sc_footer_main {
         .sc_footer_container {
             .footer_bottom {
@@ -81,7 +76,6 @@
             }
         }
     }
-
     section.home_banner_wrapper {
         padding-top: 150px;
 
@@ -91,12 +85,10 @@
                 line-height: 65px;
             }
         }
-
         .sc_home_slider {
             padding: 80px 0;
         }
     }
-
     .faq_wrapper {
         padding: 100px 0 0;
 
@@ -118,36 +110,30 @@
                 text-align: center;
             }
         }
-
         .faq_shape {
             .shape1 {
                 display: none;
             }
         }
     }
-
     .sc_support_wrapper {
         padding: 80px 0;
 
         .sc_support_row {
             padding: 70px 20px;
-
             .sc_support_btn {
                 gap: 25px;
                 flex-direction: column;
             }
         }
-
         .spshape {
             display: none;
         }
     }
-
     // =========add-ons css start========
     .add_on_faq_wrapper {
         padding: 100px 0;
     }
-
     .contact_banner {
         .contact_banner_row {
             justify-content: center;
@@ -157,7 +143,6 @@
 
     .contact_form_wrapper {
         padding: 80px 0;
-
         .contact_form_container {
             .contact_form_row {
                 text-align: center;
@@ -166,12 +151,10 @@
                     h2 {
                         text-align: center;
                     }
-
                     .contact_form_img {
                         margin: 50px 0;
                     }
                 }
-
                 .contact_form {
                     form {
                         ul {
@@ -182,10 +165,8 @@
             }
         }
     }
-
     .vrt_slider_wrapper {
         padding: 0 0 100px;
-
         .vrt_slider_row {
             text-align: center;
 
@@ -196,34 +177,29 @@
                     h2 {
                         text-align: center;
                     }
-
                     p {
                         margin: 0 auto;
                     }
                 }
             }
         }
-
         .vrt_slider_btn_row {
             margin-top: 70px;
             gap: 20px;
             flex-wrap: wrap;
         }
     }
-
     .full_calendar_banner {
         .full_calendar_top_row {
             gap: 30px;
         }
     }
-
     .bottom_purchase_bundle_wrapper {
         .bottom_purchase_bundle_row {
             gap: 30px;
             flex-direction: column-reverse;
         }
     }
-
     .full_calendar_buy_wrapper {
         padding: 80px 0 140px;
     }
@@ -260,9 +236,8 @@
                 visibility: visible;
                 transition: 0.3s ease-in-out;
 
-                 div {
+                .menu-menu-1-container {
                     width: 100%;
-
                     ul {
                         align-items: start;
                         flex-direction: column;
@@ -272,7 +247,6 @@
                         li {
                             width: 100%;
                             border-bottom: 1px solid #f5f5f5;
-
                             a {
                                 padding: 15px 0px;
                                 padding-left: 16px;
@@ -284,29 +258,24 @@
                     }
                 }
             }
-
             nav.active_nav {
                 left: 0;
                 margin: 0;
             }
-
             .toggle {
                 display: block;
             }
         }
     }
-
     footer.sc_footer_main {
         .sc_footer_container {
             padding: 80px 10px;
-
             .footer_top {
                 .f_title {
                     h3 {
                         font-size: 40px;
                         line-height: 55px;
                     }
-
                     h2.stroke_text {
                         font-size: 50px;
                         line-height: 60px;
@@ -315,79 +284,53 @@
             }
         }
     }
-
     section.home_banner_wrapper {
         padding-top: 110px;
-
         .banner_title {
             .banner_btn {
                 gap: 20px;
                 flex-direction: column;
                 max-width: 280px;
                 margin: 0 auto;
-
                 a {
                     width: 100%;
                 }
             }
         }
     }
-
     .ftr_offer_wrapper {
         .title {
             .upper_title {
                 margin-bottom: 50px;
             }
         }
-
         .ftr_shape {
             display: none;
         }
     }
-
     // ===add-ons css=========
     .learn_more_wrapper {
         padding: 0 0 140px;
-
         .lm_container {
             .lm_top_row {
                 padding: 70px 0;
             }
-
             .lm_bottom_row {
                 gap: 30px;
-
                 .lm_shape {
                     display: none;
                 }
             }
         }
     }
-
     .blog_post_main_wrapper {
         padding: 50px 0;
-
         .blog_post_wrapper {
             .blog_post_item {
                 .blog_post_row {
                     .blog_post_text {
                         padding: 30px 0 0;
                     }
-                }
-            }
-        }
-    }
-
-    .addon_download_wrapper {
-        padding: 20px 0 60px;
-
-        .addon_download_row {
-            gap: 30px;
-
-            .download_item {
-                .download_item_inner {
-                    min-height: 100%;
-                    padding: 40px;
                 }
             }
         }
@@ -401,33 +344,27 @@
         height: 48px;
         font-size: 14px;
     }
-
     .second_head {
         font-size: 30px;
         line-height: 35px;
     }
-
     p {
         font-size: 14px;
         line-height: 28px;
     }
-
     section.home_banner_wrapper {
         background-size: auto;
-
         .banner_title {
             h1 {
                 font-size: 35px;
                 line-height: 45px;
             }
-
             p {
                 margin: 5px auto 30px;
                 font-size: 15px;
                 line-height: 28px;
             }
         }
-
         .sc_home_slider {
             .swiper {
                 .swiper-wrapper {
@@ -436,29 +373,24 @@
                     }
                 }
             }
-
             .swiper-pagination-bullet {
                 width: 10px;
                 height: 10px;
             }
         }
     }
-
     .ftr_offer_wrapper {
         padding: 50px 0 0;
-
         .title {
             .upper_title {
                 padding: 10px 0;
                 background-size: contain;
-
                 h3 {
                     font-size: 18px;
                     line-height: 30px;
                 }
             }
         }
-
         .ftr_item_row {
             .ftr_col {
                 .ftr_offer_item {
@@ -475,12 +407,10 @@
             }
         }
     }
-
     .sc_pricing_card_wrapper {
         .title {
             margin: 0 auto 60px;
         }
-
         .sc_pricing_card_row {
             .my_col .sc_pricing_card {
                 .sc_pricing_card_inner {
@@ -490,26 +420,22 @@
             }
         }
     }
-
     .faq_wrapper {
         .title {
             margin: 0 auto 80px;
         }
-
         .faq_row {
             .left_content {
                 .acc-collapse-wrapper {
                     .acc-main-content {
                         .acc-head {
                             padding: 18px 15px;
-
                             h6 {
                                 max-width: 240px;
                                 font-size: 14px;
                                 line-height: 20px;
                             }
                         }
-
                         .acc-content {
                             padding: 15px;
                             margin-top: 15px;
@@ -519,21 +445,17 @@
             }
         }
     }
-
     .sc_support_wrapper {
         .sc_support_row {
             padding: 50px 20px;
             border-radius: 30px;
-
             h2 {
                 font-size: 30px;
                 line-height: 40px;
                 margin-bottom: 10px;
             }
-
             .sc_support_btn {
                 gap: 20px;
-
                 a {
                     min-width: 270px;
                     font-size: 11px;
@@ -541,20 +463,17 @@
             }
         }
     }
-
     footer.sc_footer_main {
         .sc_footer_container {
             .footer_top {
                 .footer_form {
                     form {
                         height: 70px;
-
                         input[type="submit"] {
                             min-width: 135px;
                             height: 40px;
                             font-size: 13px;
                         }
-
                         input[type="email"] {
                             padding-left: 20px;
                             padding-right: 100px;
@@ -562,18 +481,15 @@
                     }
                 }
             }
-
             .footer_bottom {
                 .f_bottom_row {
                     .footer_links_wrapper {
                         gap: 40px;
-
                         .f_links_column {
                             h4 {
                                 font-size: 17px;
                                 margin-bottom: 20px;
                             }
-
                             ul {
                                 gap: 15px;
                             }
@@ -582,7 +498,6 @@
                 }
             }
         }
-
         #go_to_top {
             right: 20px;
             bottom: 20px;
@@ -591,19 +506,16 @@
             line-height: 45px;
         }
     }
-
     // ====add-on css==
     .learn_more_wrapper {
         .lm_container {
             .lm_top_row {
                 padding: 50px 0;
-
                 h4 {
                     font-size: 18px;
                     line-height: 38px;
                 }
             }
-
             .lm_bottom_row {
                 .lm_item {
                     .lm_item_inner {
@@ -616,7 +528,6 @@
                             h3 {
                                 font-size: 24px;
                             }
-
                             p {
                                 font-size: 14px;
                                 line-height: 28px;
@@ -630,10 +541,8 @@
 
     .guarantee_wrapper {
         padding: 110px 0 0;
-
         .guarantee_disc {
             padding: 60px 20px 60px;
-
             p {
                 margin: 15px auto;
                 font-size: 15px;
@@ -641,11 +550,9 @@
             }
         }
     }
-
     .add_on_faq_wrapper {
         padding: 70px 0;
     }
-
     .contact_banner {
         padding: 150px 0 0 !important;
 
@@ -662,7 +569,6 @@
             }
         }
     }
-
     .contact_form_wrapper {
         .contact_form_container {
             .contact_form_row {
@@ -678,15 +584,12 @@
                                     .select_field::after {
                                         top: 20px;
                                     }
-
                                     textarea {
                                         border-radius: 15px;
                                     }
-
                                     label {
                                         font-size: 13px;
                                     }
-
                                     input[type="text"],
                                     input[type="email"],
                                     select,
@@ -704,48 +607,39 @@
                 }
             }
         }
-
         .contact_form_shape {
             display: none;
         }
     }
-
     .vrt_slider_wrapper {
         padding: 40px 0 80px;
-
         .vrt_slider_row {
             .sc_col {
                 .left_content {
                     h2 {
                         text-align: center;
                     }
-
                     p {
                         margin: 0 auto;
                     }
                 }
-
                 .testimonial-section {
                     .swiper-vertical-slider {
                         .swiper-slide {
                             transform: scale(0.9);
                         }
-
                         .swiper-slide-active {
                             transform: scale(1);
                         }
-
                         .swiper-slide-next {
                             margin-top: 0px !important;
                             position: relative;
                             top: -20px;
                         }
-
                         .swiper-slide-prev {
                             position: relative;
                             bottom: -35px;
                         }
-
                         .swiper-pagination {
                             right: 0;
                             display: block;
@@ -763,7 +657,6 @@
                 }
             }
         }
-
         .vrt_slider_btn_row {
             a {
                 width: 100%;
@@ -773,7 +666,6 @@
             }
         }
     }
-
     .bottom_purchase_bundle_wrapper {
         .bottom_purchase_bundle_row {
             padding: 0 10px;
@@ -783,10 +675,8 @@
                     font-size: 28px;
                     line-height: 42px;
                 }
-
                 ul {
                     gap: 13px;
-
                     li {
                         font-size: 14px;
                         line-height: 30px;
@@ -795,87 +685,72 @@
             }
         }
     }
-
     .purchase_popup .popup_inner {
         padding: 40px 20px;
     }
-
-    .sc_edd_wrapper {
+    .my_account_form_wrapper {
         padding: 0 0 60px;
 
-        .sc_edd_container {
-            main {
-                form {
-                    fieldset {
-                        legend {
-                            font-size: 30px !important;
-                            line-height: 42px;
-                            margin: 0 0 15px;
+        .my_account_form {
+            form {
+                fieldset {
+                    legend {
+                        font-size: 32px;
+                        line-height: 48px;
+                        margin: 0 0 15px;
+                    }
+
+                    p {
+                        a,
+                        label {
+                            font-size: 13px;
+                            margin-left: 18px;
                         }
-
-                        p {
-                            a,
-                            label {
-                                font-size: 13px;
-                                margin-left: 18px;
-                            }
-
-                            input[type="text"],
-                            input[type="email"],
-                            input[type="password"],
-                            select {
-                                height: 50px;
-                                padding: 0px 18px;
-                            }
-
-                            input[type="submit"] {
-                                height: 45px;
-                                margin: 0 auto;
-                            }
+                        input[type="text"],
+                        input[type="email"],
+                        input[type="password"] {
+                            height: 50px;
+                            padding: 0px 18px;
+                        }
+                        input[type="submit"] {
+                            height: 45px;
                         }
                     }
                 }
             }
         }
     }
-
     .add_on_banner_wrapper {
         padding: 120px 0 220px;
     }
-
     .center_content_wrapper {
         padding: 0 0 50px;
-
         .c_content_container {
             p {
                 font-size: 15px;
                 line-height: 30px;
 
-                b {
+                b{
                     font-size: 15px;
-                    line-height: 30px;
+                    line-height: 30px;;
                 }
             }
-
-            h2 {
+          h2 {
                 font-size: 24px;
             }
-
             h3 {
                 font-size: 20px;
             }
-
-            ol,
-            ul {
+            ol,ul{
                 padding: 0 0 0 20px;
 
-                li {
+                li{
                     font-size: 15px;
                     line-height: 30px;
                     margin: 0 0 10px;
 
-                    p {
-                        b {
+                    p{
+                        b{
                             font-size: 16px;
                             line-height: 40px;
                         }
@@ -884,37 +759,30 @@
             }
         }
     }
-
     .full_calendar_banner {
         padding: 120px 0 0px;
     }
-
     body.page-template-refund-policy {
         .guarantee_wrapper {
             margin: 50px 0 0;
         }
     }
-
     .blog_post_main_wrapper {
         .blog_post_wrapper {
             gap: 65px;
-
             .blog_post_item {
                 .blog_post_row {
                     .blog_post_thumbnail {
                         height: 100%;
-                        border-radius: 10px;
                     }
-
-                    .blog_post_text {
-                        h2 {
+                    .blog_post_text{
+                        h2{
                             a {
                                 font-size: 20px;
                                 line-height: 28px;
                             }
                         }
-
-                        p {
+                        p{
                             font-size: 14px;
                         }
                     }
@@ -922,104 +790,6 @@
             }
         }
     }
-    .sc_edd_wrapper {
-        .sc_edd_container {
-            main {
-                table {
-                    thead {
-                        tr {
-                            th {
-                                padding: 6px 10px !important;
-                                font-size: 12px !important;
-                            }
-                        }
-                    }
-                    tbody {
-                        tr {
-                            td {
-                                font-size: 12px;
-                                padding: 6px 10px !important;
-                            }
-                        }
-                    }
-                }
-                #edd_checkout_wrap {
-                    overflow-x: auto;
-                    #edd_checkout_form_wrap {
-                        form#edd_purchase_form {
-                            fieldset p {
-                                label {
-                                    margin-left: 12px !important;
-                                }
-
-                                span {
-                                    max-width: 260px;
-                                    line-height: 20px;
-                                    margin-left: 12px !important;
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }
-    footer.sc_footer_main {
-        .footer_top .footer_form {
-            .gform_wrapper form{
-                .gform_body {
-                    .gform_fields {
-                        .ginput_container_email {
-                            input[type="email"] {
-                                min-height: 56px !important;
-                                padding-right: 110px;
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }
-    footer.sc_footer_main {
-        .sc_footer_container{
-            .footer_bottom{
-                .f_bottom_row {
-                    .footer_links_wrapper {
-                        margin-top: 10px;
-                    }
-                }
-            }
-        }
-    }
-    .contact_form_wrapper {
-        .contact_form_container {
-            .contact_form_row {
-                .contact_form {
-                    .gform_wrapper {
-                        form {
-                            .gform_body {
-                                ul {
-                                    li {
-                                        &.gf_left_half {
-                                            .ginput_container {
- flex-direction: column;
-                                            }
-                                        }
-                                    }
-                                }
-                            }
-                            .gform_footer {
-                                input[type=submit]{
-                                    margin-left: 0 !important;
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }
-    
 }
 
 @media screen and (max-width: 375px) {
@@ -1027,24 +797,20 @@
         .sc_footer_container {
             padding: 55px 10px;
             border-radius: 30px;
-
             .footer_top {
                 .f_title {
                     h3 {
                         font-size: 30px;
                         line-height: 50px;
                     }
-
                     h2.stroke_text {
                         font-size: 40px;
                         line-height: 50px;
                     }
                 }
-
                 .footer_form {
                     form {
                         height: 60px;
-
                         input[type="submit"] {
                             min-width: 100px;
                             height: 32px;
@@ -1052,7 +818,6 @@
                             top: 13px;
                             right: 9px;
                         }
-
                         input[type="email"] {
                             padding-right: 80px;
                             padding-left: 15px;
@@ -1064,20 +829,16 @@
                     }
                 }
             }
-
             .footer_bottom {
                 margin-top: 70px;
-
                 .f_bottom_row {
                     .footer_links_wrapper {
                         gap: 40px;
-
                         .f_links_column {
                             h4 {
                                 font-size: 17px;
                                 margin-bottom: 20px;
                             }
-
                             ul {
                                 gap: 10px;
 
@@ -1092,16 +853,13 @@
                 }
             }
         }
-
         .copyright_row {
             padding: 20px 0;
-
             h6 {
                 font-size: 12px;
             }
         }
     }
-
     .vrt_slider_wrapper {
         .vrt_slider_row {
             text-align: center;
@@ -1110,7 +868,6 @@
                 .left_content {
                     margin: 0 auto 30px;
                 }
-
                 .testimonial-section {
                     .swiper-vertical-slider {
                         .swiper-slide {
@@ -1125,12 +882,10 @@
                                                 height: 40px;
                                             }
                                         }
-
                                         .verticle-btm-name {
                                             h5 {
                                                 font-size: 14px;
                                             }
-
                                             h6 {
                                                 font-size: 12px;
                                             }
@@ -1145,7 +900,6 @@
                                 }
                             }
                         }
-
                         .swiper-slide-active {
                             .verticle-slider-content {
                                 p {
@@ -1153,7 +907,6 @@
                                 }
                             }
                         }
-
                         .swiper-slide-prev {
                             bottom: -60px;
                         }
@@ -1161,12 +914,10 @@
                 }
             }
         }
-
         .vrt_slider_btn_row {
             margin-top: 40px;
         }
     }
-
     .purchase_popup {
         .popup_inner {
             form {

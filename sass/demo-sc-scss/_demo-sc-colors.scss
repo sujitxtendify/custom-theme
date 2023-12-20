@@ -1,0 +1,88 @@
+// =========demo-sc-color- variable============
+
+$demo-sc-black:#000000;
+$demo-sc-white:#FFFFFF;
+$demo-sc-white2:#FCFCFC;
+$demo-sc-para:#4d4d4d;
+$demo-sc-para2:#00000099;
+$demo-sc-pink:#BC2A8D;
+$demo-sc-yellow:#FECF5D;
+$demo-sc-green:#61BD4F;
+$demo-sc-cyan:#FBFDFD;
+$demo-sc-dblue:#3C8595;
+$demo-sc-grey:#4D5E80;
+$demo-sc-dblue-lt:#F5FAFF;
+$demo-sc-green-lt:#EEFCF6;
+$demo-sc-pink-lt:#FAEFF6;
+$demo-sc-skyblue:#039BE5;
+$demo-sc-skyblue-lt:#039BE50D;
+$demo-sc-purple:#7986CB;
+$demo-sc-purple-lt:#7986CB0D;
+$demo-sc-dgreen:#0B8043;
+$demo-sc-dgreen-lt:#0B80430D;
+$demo-sc-magenta:#8E24AA;
+$demo-sc-magenta-lt:#8E24AA0D;
+$demo-sc-dyellow :#F6BF26;
+$demo-sc-dyellow-lt:#F6BF260D;
+$demo-sc-red :#D50000;
+$demo-sc-red-lt:#D500000D;
+$demo-sc-dust :#616161;
+$demo-sc-dust-lt:#6161610D;
+$demo-sc-lv-border:#e7e9e9;
+$demo-sc-card-pink:#ffe6fe;
+$demo-sc-card-green:#DFFFDA;
+$demo-sc-card-bluish:#D3DFFF;
+$demo-sc-card-sand:#F1EFD2;
+$demo-sc-grad: linear-gradient(90deg, #502AE1 0%, #FF7D67 98.41%);
+$demo-sc-transition: .3s ease-in-out;
+
+
+// ---------------------color class-component-------------------
+
+.demo_sc_pink_bg{
+    background-color: $demo-sc-pink;
+}
+.demo_sc_pink_text{
+    color: $demo-sc-pink;
+}
+
+.demo_sc_yellow_bg{
+    background-color: $demo-sc-yellow;
+}
+.demo_sc_yellow_text{
+    color: $demo-sc-yellow;
+}
+
+.demo_sc_black_bg{
+    background-color: $demo-sc-black;
+}
+.demo_sc_black_text{
+    color: $demo-sc-black;
+}
+
+.demo_sc_green_bg{
+    background-color: $demo-sc-green;
+}
+.demo_sc_green_text{
+    color: $demo-sc-green;
+}
+
+.demo_sc_white_bg{
+    background-color: $demo-sc-white;
+}
+.demo_sc_white_text{
+    color: $demo-sc-white;
+}
+
+.demo_sc_cyan_bg{
+    background-color: $demo-sc-cyan;
+}
+
+.demo_sc_dblue_bg{
+    background-color: $demo-sc-dblue;
+}
+.demo_sc_dblue_text{
+    color: $demo-sc-dblue;
+}
+
+

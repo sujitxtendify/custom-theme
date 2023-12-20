@@ -221,6 +221,7 @@
         .contact_form_row {
             .contact_form {
                 .gform_wrapper {
+                    overflow: hidden;
                     form {
                         
                         .gform_body {
@@ -296,12 +297,12 @@
                                         display: none;
                                     }
                                     .ginput_container{
-                                        display: flex;
-                                        align-items: center;
-                                        gap: 20px;
 
                                         span{
                                             padding: 0 !important;
+                                            display: flex;
+                                            align-items: center;
+                                            gap: 20px;
 
                                             label{
                                                 margin-bottom: 10px;
@@ -349,4 +350,3 @@
         }
     }
 }
-

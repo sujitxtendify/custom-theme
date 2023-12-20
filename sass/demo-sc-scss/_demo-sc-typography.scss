@@ -1,0 +1,122 @@
+$demo-sc-font-primary: "Poppins", sans-serif;
+$demo-sc-font-secondary: "Roboto", sans-serif;
+
+.demo_sc_grad {
+    background: $demo-sc-grad;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.demo_sc_h1 {
+    color: $demo-sc-white;
+    font-family: $demo-sc-font-primary;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+    text-transform: capitalize;
+}
+
+.demo_sc_h2 {
+    color: $demo-sc-black;
+    font-family: $demo-sc-font-primary;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 29px;
+    text-transform: capitalize;
+}
+
+.demo_sc_h3 {
+    color: $demo-sc-black;
+    font-family: $demo-sc-font-primary;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+    text-transform: capitalize;
+}
+
+.demo_sc_h4 {
+    color: $demo-sc-black;
+    font-family: $demo-sc-font-primary;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.demo_sc_h5 {
+    color: $demo-sc-black;
+    font-family: $demo-sc-font-primary;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.demo_sc_h6 {
+    color: $demo-sc-black;
+    font-family: $demo-sc-font-primary;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+// ==========sc- para=================
+.demo_sc_main_para {
+    color: $demo-sc-para;
+    font-family: $demo-sc-font-primary;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    max-width: 793px;
+    margin: 0 auto;
+}
+
+.demo_sc_second_para {
+    color: $demo-sc-para2;
+    font-family: $demo-sc-font-primary;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    text-transform: capitalize;
+    max-width: 613px;
+}
+
+// ===========demp-sc  span===============
+.demo_sc_span_b {
+    color: $demo-sc-black;
+    font-family: $demo-sc-font-primary;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    text-transform: capitalize;
+    margin-right: 3px;
+}
+
+.demo_sc_span_p {
+    color: $demo-sc-pink;
+    font-family: $demo-sc-font-primary;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    text-transform: capitalize;
+    margin-right: 3px;
+}
+.demo_sc_span_g {
+    color: $demo-sc-green;
+    font-family: $demo-sc-font-primary;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    text-transform: capitalize;
+    margin-right: 3px;
+}
